@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Анкета</title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+		<!--[if It IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+		<! [endif]-->
+
+	</head>
+
+	<body>
+		<div id="wrap">
+			<header>
+				<a id="hamburger"  href="#menu">
+					<span></span>
+				</a>
+				<nav id="menu">
+					<ul>
+						<li><a href="#">Личная информация</a></li>
+						<li><a href="#">Опыт</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">О себе</a></li>
+					</ul>
+				</nav>
+				<div class="nav">
+					<ul>
+						<li class="active"><a href="#">Личная информация</a></li>
+						<li><a href="#">Опыт</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">О себе</a></li>
+					</ul>
+				</div>
+			</header><!--end header-->
+			<div id="content">
+				<h1>Анкета</h1>
+				<div class="information">
+					<img src="images/information.png" alt=""/>
+					<h2>Личная информация</h2>
+					<form action="" method="post">
+						<ul>
+							<li><input type="text" placeholder="ФИО" value="Ткаченко Сергей Сергеевич" /></li>
+							<li>
+								<select>
+									<option disabled>Год рождения</option>
+									<option value="1">1991</option>
+									<option value="2">1992</option>
+									<option selected value="3">1993</option>
+									<option value="4">1994</option>
+									<option value="5">1995</option>
+								</select>
+							</li>
+							<li><input type="text" placeholder="Место проживания" value="Украина, м. Черкассы" /></li>
+							<li><input type="text" placeholder="Skype" value="dj_serje" /></li>
+							<li><input type="text" placeholder="E-mail" value="dj_serje@inbox.ru" /></li>
+						</ul>
+					</form>
+				</div>
+				<div class="experience">
+					<img src="images/experience.png" alt=""/>
+					<h2>Расскажите о своем опыте</h2>
+					<form action="" method="post">
+						<ul>
+							<li><input type="checkbox" checked/><label>БЭМ/OOCSS</label></li>
+							<li><input type="checkbox" checked/><label>Верстаю семантично</label></li>
+							<li class="small"><input type="checkbox" /><label>Webpack</label></li>
+							<li><input type="checkbox" checked/><label>Stylus/LESS/SASS</label></li>
+							<li><input type="checkbox" /><label>ES2015/ES2016</label></li>
+							<li class="small"><input type="checkbox" checked/><label>jQuery</label></li>
+							<li><input type="checkbox" /><label>Работаю с SVG</label></li>
+							<li><input type="checkbox" /><label>Gulp/GRUNT</label></li>
+							<li class="small"><input type="checkbox" checked/><label>Ипользую Git</label></li>
+						</ul>
+					</form>
+				</div>
+				<div class="js">
+					<img src="images/js.png" alt=""/>
+					<h2>Уровень владения JavaScript</h2>
+					<ul>
+						<li>Не владею</li>
+						<li>Использую готовые решения</li>
+						<li>Использую готовые решения и умею их переделывать</li>
+						<li>Пишу сложный JS с нуля</li>
+					</ul>
+					<div id="slider-range-min"></div>
+				</div>
+				<div class="about">
+					<img src="images/about.png" alt=""/>
+					<h2>Расскажите о себе</h2>
+					<p>Напишите несколько предложений, чем привлекла наша вакансия
+						и что вы ожидаете от работы у нас.
+					</p>
+					<form action="" method="post">
+						<ul>
+							<li><textarea  placeholder="Понравилась тем, что...">Понравилось что есть возможность работать удаленно,возможность роста и развития, хороший колектив. Хочу развиваться обучатся, работать над интересными проектами и учится решать сложные задачи.</textarea></li>
+							<li><input type="submit" name="submit" value="Готово" /></li>
+						</ul>
+					</form>
+				</div>
+			</div><!--end content-->
+		</div><!--end wrap-->
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
+		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
